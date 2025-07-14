@@ -1,10 +1,13 @@
 import React from 'react'
+import HeaderSection from '../componets/HeaderSection'
+import FeaturedSection from '../componets/FeaturedSection'
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <HeaderSection />
+      <FeaturedSection />
+    </>
   )
 }
 
