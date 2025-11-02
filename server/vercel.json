@@ -16,9 +16,9 @@
   ],
   "env": {
     "NODE_ENV": "production",
-    "MONGODB_URI": "@mongodb_uri",
-    "CLERK_SECRET_KEY": "@clerk_secret_key",
-      "INNGEST_SIGNING_KEY": "@inngest_signing_key"
+    "MONGODB_URI": "mongodb+srv://anupriya:anupriya123@cluster0.tqkqyzz.mongodb.net",
+    "CLERK_SECRET_KEY": "sk_test_w36qVsls9IACZYUryqRaNWPskEFpFP9DQYszwE7ilx",
+    "INNGEST_SIGNING_KEY": "signkey-prod-c40911d41f32ec82990e3cac7ae99eb8660ccc3579ff5dafd561d5ed5b003242"
   },
   "framework": null
 }
