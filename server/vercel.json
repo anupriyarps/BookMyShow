@@ -5,7 +5,7 @@
       "runtime": "nodejs18.x",
       "maxDuration": 30,
       "memory": 512,
-      "includeFiles": ["dist/**"]
+      "includeFiles": "dist/**"
     }
   },
   "routes": [
@@ -18,7 +18,7 @@
     "NODE_ENV": "production",
     "MONGODB_URI": "@mongodb_uri",
     "CLERK_SECRET_KEY": "@clerk_secret_key",
-    "INNGEST_SIGNING_KEY": "@inngest_signing_key"
+      "INNGEST_SIGNING_KEY": "@inngest_signing_key"
   },
   "framework": null
 }
